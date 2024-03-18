@@ -1,6 +1,6 @@
 # Default values for fastapi.
 deployment:
-  image: 203271543287.dkr.ecr.eu-west-3.amazonaws.com/fastapi-traefik-app
+  image: pablohassan/fast-api-exo
   imagePullPolicy: Always
   tag: latest
   replicaCount: 2
